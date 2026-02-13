@@ -1,4 +1,5 @@
 #numeros
+
 print(int(7))
 print(float(7.7))
 print(type(7))
