@@ -1,6 +1,7 @@
 from enemigo import *
+import random
 
-class Zombie(Enemigo):
+class Zombie(enemigo):
     def __init__(self, puntos_energia=10, ataque=1):
         super().__init__(tipo_enemigo="Zombie", puntos_energia=puntos_energia, ataque=ataque)
      
